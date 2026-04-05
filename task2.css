@@ -1,0 +1,85 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', sans-serif; }
+
+body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: #1e3c72; 
+    padding: 15px; 
+}
+
+.container { 
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(15px); 
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    padding: 40px; 
+    border-radius: 25px; 
+    width: 100%; 
+    max-width: 500px; 
+    color: white; 
+    text-align: center; 
+}
+
+.hidden { 
+    display: none; 
+}
+
+h1 { 
+    margin-bottom: 20px; 
+}
+
+.input-box { 
+    margin-bottom: 15px; 
+    text-align: left; 
+}
+
+.input-box input, select { 
+    width: 100%; 
+    padding: 12px; 
+    border-radius: 10px; 
+    border: none; 
+    background: rgba(255, 255, 255, 0.15); 
+    color: white; 
+}
+
+.main-btn, .secondary-btn, .download-btn { 
+    width: 100%; 
+    padding: 12px; 
+    border-radius: 10px;
+    border: none; 
+    cursor: pointer; 
+    font-weight: bold; 
+    margin-top: 10px; 
+}
+
+.main-btn { 
+    background: #3a7bd5; 
+    color: white; 
+}
+
+.download-btn { 
+    background: #00d2ff; color: #1e3c72; 
+    text-decoration: none; 
+    display: block; 
+    text-align: center;
+}
+
+.secondary-btn { 
+    background: transparent; 
+    color: white; 
+    border: 1px solid white; 
+}
+
+.book-card { 
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 15px; 
+    border-radius: 10px; 
+    margin-bottom: 15px; 
+    text-align: left; 
+    border-left: 5px solid #00d2ff; 
+}
