@@ -10,8 +10,8 @@ CREATE TABLE IF NOT EXISTS kitablar (
 INSERT INTO kitablar (name, author) VALUES 
 ('Sefiller', 'Viktor Huqo'),
 ('1984', 'George Orwell'),
-('Cinayet ve Ceza', 'Fyodor Dostoyevski');
 ('Anne Karenina', 'Lev Tolstoy'),
 ('Martin Iden', 'Cek London'),
 ('İnsan nədir', 'Mark Tven'),
 ('Drakula', 'Brem Stoker'),
+('Cinayet ve Ceza', 'Fyodor Dostoyevski');
