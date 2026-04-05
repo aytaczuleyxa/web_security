@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Kitab Portalı</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+
+    <div id="searchPage" class="container">
+        <h1>Kitab Dünyası</h1>
+        <p class="subtitle">Milyonlarla PDF arasından axtarış edin</p>
+
+        <form id="searchForm" class="search-form">
+            <div class="input-box">
+                <label>Kitabın adı</label>
+                <input type="text" id="bookName" placeholder="Məsələn: Səfillər" required>
+            </div>
+            <div class="input-box">
+                <label>Yazıçı</label>
+                <input type="text" id="author" placeholder="Məsələn: Viktor Hüqo" required>
+            </div>
+            <div class="input-box">
+                <label>Kitabın dili</label>
+                <select id="language">
+                    <option value="az">Azərbaycan dili</option>
+                    <option value="tr">Türk dili</option>
+                    <option value="en">İngilis dili</option>
+                    <option value="ru">Rus dili</option>
+                </select>
+            </div>
+            <button type="submit" class="main-btn">Kitabı Tap</button>
+        </form>
+    </div>
+
+    <div id="resultsPage" class="container hidden">
+        <h1>Tapılan Kitablar</h1>
+        <div id="resultsList"></div>
+        <button id="backBtn" class="secondary-btn">← Geri qayıt</button>
+    </div>
+
+    <script src="task2.js"></script>
+</body>
+</html>
